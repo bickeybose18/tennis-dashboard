@@ -68,4 +68,4 @@ st.divider()
 # Footer
 st.markdown("### 📌 Insights")
 st.info("This dashboard shows top tennis player rankings filtered by country.")
-st.image("logo.png.jpg", width=40)
+st.image("logo.png.jpg", width=180)
