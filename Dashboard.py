@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Page config
+st.image("logo.png.jpg", width=180)
 st.set_page_config(page_title="Tennis Dashboard", layout="wide")
 
 # Custom CSS (🔥 Professional look)
@@ -68,4 +69,4 @@ st.divider()
 # Footer
 st.markdown("### 📌 Insights")
 st.info("This dashboard shows top tennis player rankings filtered by country.")
-st.image("logo.png.jpg", width=180)
+
