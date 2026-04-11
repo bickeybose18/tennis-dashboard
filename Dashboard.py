@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Page config
-st.image("logo.png.jpg", width=180)
+st.image("photo.jpg", width=180)
 st.set_page_config(page_title="Tennis Dashboard", layout="wide")
 
 # Custom CSS (🔥 Professional look)
