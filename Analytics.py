@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title("📈 Analytics")
 
-df = pd.read_csv("data/tennis.csv")
+df = pd.read_csv("Sale Report.csv")
 
-fig = px.pie(df, names="Country")
+fig = px.pie(df, names="Shipped")
 st.plotly_chart(fig)
